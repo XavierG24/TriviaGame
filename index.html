@@ -32,22 +32,99 @@
 
         <div class="row">
             <div class="col-md-12">
-                    <div class="timer">Time Remaining: <span id="timer"></span></div>
+                <div class="timer"></div>
             </div>
         </div>
 
-       <div class="row">
-           <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
                 <div class="questions">
                     <h3>Question 1:</h3>
-                        <p>In which city did Ferris Bueller take his day off?</p>
-                        <h3>Question 2:</h3>
-                        <p>What year was Michael Jackson's 'Thriller' released?</p>
-                        <h3>Question 3:</h3>
-                        <p>How much internal memory did Macintosh 1984 have?</p>
-                    </div>
-           </div>
-       </div>
+                    <p>"Life moves pretty fast. If you don’t stop and look around once in awhile, you could miss it.":
+                        Which iconc 80's character spoke this line?
+                    </p>
+                    <form>
+                        <input type="radio" value="incorrect" name="q1"> Billy Peltzer 
+                        <input type="radio" value="correct" name="q1" class="correct"> Ferris Bueller
+                        <input type="radio" value="incorrect" name="q1"> Indiana Jones
+                    </form>
+                    <h3>Question 2:</h3>
+                    <p>What year was Michael Jackson's 'Thriller' released?</p>
+                    <form>
+                        <input type="radio" value="incorrect" name="q1" class="correct"> 1982
+                        <input type="radio" value="correct" name="q1"> 1985
+                        <input type="radio" value="incorrect" name="q1"> 1986
+                    </form>
+                    <h3>Question 3:</h3>
+                    <p>How much internal memory did Macintosh 1984 have?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1" class="correct"> 128k
+                        <input type="radio" value="correct" name="q1"> 512k
+                        <input type="radio" value="incorrect" name="q1"> 1mb
+                    </form>
+                    <h3>Question 4:</h3>
+                    <p>Which group released the hit song 'Take On Me'?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1"> Duran Duran
+                        <input type="radio" value="correct" name="q1" class="correct"> a-ha
+                        <input type="radio" value="incorrect" name="q1"> Depeche Mode
+                    </form>
+                    <h3>Question 5:</h3>
+                    <p>In the Back to the Future series, what town does Marty McFly live in?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1"> High Wall
+                        <input type="radio" value="correct" name="q1"> Hilldale
+                        <input type="radio" value="incorrect" name="q1" class="correct"> Hill Valley
+                    </form>
+                    <h3>Question 6:</h3>
+                    <p>How many ghosts appear in the game Pac Man?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1" class="correct"> 4
+                        <input type="radio" value="correct" name="q1"> 6
+                        <input type="radio" value="incorrect" name="q1"> 5
+                    </form>
+                    <h3>Question 7:</h3>
+                    <p>What is the name of Bill Murray's character in "Ghostbusters"?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1" class="correct"> Peter Vankman
+                        <input type="radio" value="correct" name="q1"> Egon Spangler
+                        <input type="radio" value="incorrect" name="q1"> Ray Stantz
+                    </form>
+                    <h3>Question 8:</h3>
+                    <p>'GNR' is short for what band?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1"> Grand National Republic
+                        <input type="radio" value="correct" name="q1" class="Correct"> Guns N' Roses
+                        <input type="radio" value="incorrect" name="q1"> Girl's Not Ready
+                    </form>
+                    <h3>Question 9:</h3>
+                    <p>Which one of these toys was NOT released in the 80's?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1"> Cabbage Patch Kids
+                        <input type="radio" value="correct" name="q1"> My Little Pony
+                        <input type="radio" value="incorrect" name="q1" class="correct"> Pet Rock
+                    </form>
+                    
+                    <h3>Question 10:</h3>
+                    <p>David Bowie's hit 'Modern Love' appeared on which album?</p>
+                    <form action="/action_page.php">
+                        <input type="radio" value="incorrect" name="q1" class="correct"> Let's Dance!
+                        <input type="radio" value="correct" name="q1"> Ziggy Stardust and the Spiders from Mars
+                        <input type="radio" value="incorrect" name="q1" class="correct"> Young Americans
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div id="results">
+            <h1>All done!</h1>
+            <p>Correct Answers: <span id="right-answwers"></span></p>
+            <p>Incorrect answers: </p>
+            <p>Unanswered: </p>
+        </div>
+
+    </div>
+
 
 
 
